@@ -1,0 +1,19 @@
+{
+    "name": "dat/psr0",
+    "description": "demo psr0",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "dat",
+            "email": "dat@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload" :{
+        "psr-4" : {
+            "Viblo\\" : "src/"
+        }
+    }
+}
